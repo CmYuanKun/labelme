@@ -1,0 +1,58 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=200"],
+    "python.formatting.provider": "yapf",
+    "editor.minimap.maxColumn": 120,
+    "emmet.triggerExpansionOnTab":true,
+    "files.associations": { "*.js": "html","*.vue": "html"},
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "fileheader.configObj": {
+        "createFileTime": true,
+        "timeNoDetail": false,
+        "language": {
+            "languagetest": {
+                "head": "/$$",
+                "middle": " $ @",
+                "end": " $/"
+            }
+        },
+        "autoAdd": false,
+        "autoAlready": true,
+        "annotationStr": {
+            "head": "/*",
+            "middle": " * @",
+            "end": " */",
+            "use": true
+        },
+        "headInsertLine": {
+            "php": 2
+        },
+        "beforeAnnotation": {
+            "py": "#!/usr/bin/env python\n# coding=UTF-8"
+        },
+        "specialOptions": {}
+    },
+    "fileheader.customMade": {
+        "Author": "yuankun",
+        "Date": "Do not edit",
+        "LastEditors": "yuankun",
+        "LastEditTime": "Do not Edit",
+        "Descripttion": "",
+    },
+    "fileheader.cursorMode": {
+        "description": "",
+        "param": "",
+        "return": ""
+    },
+    "python.terminal.executeInFileDir": true,
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "git.ignoreLimitWarning": true
+}

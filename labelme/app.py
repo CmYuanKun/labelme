@@ -760,7 +760,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # XXX: Could be completely declarative.
         # Restore application settings.
-        self.settings = QtCore.QSettings("labelme", "labelme")
+        self.settings = QtCore.QSettings("labelme.ini", QtCore.QSettings.IniFormat)
         # FIXME: QSettings.value can return None on PyQt4
         self.recentFiles = self.settings.value("recentFiles", []) or []
         size = self.settings.value("window/size", QtCore.QSize(600, 500))
